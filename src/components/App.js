@@ -17,6 +17,8 @@ import { GlavnaKomponenta } from './GlavnaKomponenta';
 import {WelcomeFunkcija} from './WelcomeFunkcija';
 import {WelcomeKlasa} from './WelcomeKlasa';
 import React from 'react';
+import KorisnikKlasa from './KorisnikKlasa';
+import KorisnikKlasa from './KorisnikFunkcija';
 
 
 // function WelcomeFunkcija() {
@@ -33,6 +35,11 @@ import React from 'react';
 //  }
 // }
 
+const korisnici = [ 
+  {ime: "Marko", godine: 27},
+  {ime: "katarina", godine: 21},
+  {ime: "Nataša", godine: 20},
+];
 
 class App extends React.Component {
 
@@ -75,6 +82,11 @@ render() {
       <GlavnaKomponenta/>
       <WelcomeFunkcija />
       <WelcomeKlasa/>
+
+
+      <KorisnikKlasa/>
+      <KorisnikFunkcija/>
+      
     </div>
   );
 }
