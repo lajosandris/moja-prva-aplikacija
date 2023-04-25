@@ -1,5 +1,5 @@
-export function KorisnikFunkcija() {
+export function KorisnikFunkcija({ime, godine}) {
     return (
-            <p>Korisnik Funkcija komponenta. </p>
+            <p>Moje ime je {ime} i imam {godine} godina. </p>
     );
 }

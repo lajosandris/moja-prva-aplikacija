@@ -19,6 +19,8 @@ import {WelcomeKlasa} from './WelcomeKlasa';
 import React from 'react';
 import KorisnikKlasa from './KorisnikKlasa';
 import { KorisnikFunkcija } from './KorisnikFunkcija';
+import KorisnikChild from './KorisnikChild';
+import { render } from 'react-dom/cjs/react-dom.production.min';
 
 
 
@@ -36,11 +38,20 @@ import { KorisnikFunkcija } from './KorisnikFunkcija';
 //  }
 // }
 
-const korisnici = [ 
+state = {
+ korisnici : [ 
   {ime: "Marko", godine: 27},
-  {ime: "katarina", godine: 21},
+  {ime: "Katarina", godine: 21},
   {ime: "Nataša", godine: 20},
-];
+  {ime: "Pero", godine: 8},
+ ],
+ tekst: "Ona voli plivati."
+};
+
+render() {
+
+  const {korisnici, dodatni_tekst} = this.state;
+}
 
 class App extends React.Component {
 
@@ -83,13 +94,20 @@ render() {
       <GlavnaKomponenta/>
       <WelcomeFunkcija />
       <WelcomeKlasa/>
+      
+
 
 
       <KorisnikKlasa ime={korisnici[0].ime} godine={korisnici[0].godine}/>
       <KorisnikKlasa ime={korisnici[1].ime} godine={korisnici[1].godine}/>
       
-      <KorisnikFunkcija ime={korisnici[2].ime} godine={korisnici[0].godine}/>
+      <KorisnikFunkcija ime={korisnici[2].ime} godine={korisnici[2].godine}/>
       
+
+      <KorisnikChild ime={korisnici[3].ime} godine={korisnici[3].godine}>
+        {dodatni_tekst}
+      
+      </KorisnikChild>
     </div>
   );
 }
