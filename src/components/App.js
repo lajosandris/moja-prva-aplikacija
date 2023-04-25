@@ -16,6 +16,7 @@ import { GlavnaKomponenta } from './GlavnaKomponenta';
 //import React from "react";
 import {WelcomeFunkcija} from './WelcomeFunkcija';
 import {WelcomeKlasa} from './WelcomeKlasa';
+import React from 'react';
 
 
 // function WelcomeFunkcija() {
@@ -33,7 +34,10 @@ import {WelcomeKlasa} from './WelcomeKlasa';
 // }
 
 
-function App() {
+class App extends React.Component {
+
+render() {
+
   var zbroj = sum(10, 12) * pi + (broj1 * broj2);
   var rndStr =randomstring.generate({
     length: 8
@@ -73,6 +77,7 @@ function App() {
       <WelcomeKlasa/>
     </div>
   );
+}
 }
 
 export default App;
