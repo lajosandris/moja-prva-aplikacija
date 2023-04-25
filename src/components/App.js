@@ -18,7 +18,8 @@ import {WelcomeFunkcija} from './WelcomeFunkcija';
 import {WelcomeKlasa} from './WelcomeKlasa';
 import React from 'react';
 import KorisnikKlasa from './KorisnikKlasa';
-import KorisnikKlasa from './KorisnikFunkcija';
+import { KorisnikFunkcija } from './KorisnikFunkcija';
+
 
 
 // function WelcomeFunkcija() {
@@ -84,8 +85,10 @@ render() {
       <WelcomeKlasa/>
 
 
-      <KorisnikKlasa/>
-      <KorisnikFunkcija/>
+      <KorisnikKlasa ime={korisnici[0].ime} godine={korisnici[0].godine}/>
+      <KorisnikKlasa ime={korisnici[1].ime} godine={korisnici[1].godine}/>
+      
+      <KorisnikFunkcija ime={korisnici[2].ime} godine={korisnici[0].godine}/>
       
     </div>
   );

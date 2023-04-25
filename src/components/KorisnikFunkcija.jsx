@@ -1,5 +1,5 @@
 export function KorisnikFunkcija() {
     return (
-            <p>Korisnik Funkcija komponenta</p>
+            <p>Korisnik Funkcija komponenta. </p>
     );
 }
