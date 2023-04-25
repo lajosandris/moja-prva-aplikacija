@@ -1,7 +1,5 @@
 export function Komponenta1() {
     return (
-        <div>
-            <p>Prikaži neki text</p>
-        </div>
+            <p>Komponenta1 = Prikaži neki text</p>
     );
 }

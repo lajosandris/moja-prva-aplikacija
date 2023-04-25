@@ -37,3 +37,20 @@
 	3.	Napraviti JSX element koji će prikazati neki tekst na ekranu
 	4.	Napraviti JSX element koji će prikazati neki tekst na ekranu + vrijednost jedne od varijabli
 	5.	Napraviti JSX element koji će prikazati obje varijable odvojene razmakom
+
+# Zadatak 6 - Conditional rendering
+### Potrebno napraviti React aplikaciju koja će imati slijedeće:
+	1.	Napraviti novu React aplikaciju.
+	2.	Potrebno je napraviti dvije komponente
+	3.	Glavna komponenta poziva drugu komponentu ConditionalRendering sa svojstvom (props) number
+	4.	U ovisnusti o poslanom broju treba ispisati drukčiji tekst
+	5.	Ako se pošalje nedefinirani broj, komponenta ConditionalRendering ništa ne ispisuje
+
+# Zadatak 7 - Komponente
+### Potrebno napraviti React aplikaciju koja će imati slijedeće:
+	1	Napraviti novu aplikaciju
+	2.	Unutar App.js datoteke napraviti jednu komponentu definiranu funkcijom koja vraća JSX s tekstom.
+	    Unutar App komponente potrebno je prikazati komponentu.
+	3.	Unutar App.js datoteke napraviti jednu komponentu definiranu klasom koja vraća JSX s tekstom.
+	    Unutar App komponente potrebno je prikazati komponentu.
+	4.	Potrebno je prebaciti svaku komponentu unutar svoje datoteke. Prikazati ih unutar App komponente.
