@@ -1,5 +1,5 @@
-export function KorisnikFunkcija({ime, godine}) {
+export default function KorisnikFunkcija({ime, godine}) {
     return (
-            <p>Moje ime je {ime} i imam {godine} godina. </p>
+            <p>Moje ime je {ime} i imam {godine} godine</p>
     );
 }
