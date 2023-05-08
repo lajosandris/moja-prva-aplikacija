@@ -77,3 +77,36 @@
 	3. Prikazati promjenu na ekranu
 	4. Komponenta App smije biti jedina komponenta sa stanjima (statefull), komponenta App mora biti definirana klasom
 
+# Zadatak 11 - useState hook
+### Početno stanje aplikacije je završno stanje prethodnog zadatka
+	1. Potrebno je promijeniti komponentu App - komponenta App mora biti definirana funkcijom.
+	2. Za čuvanje stanja aplikacije potrebno je koristiti useState hook.
+
+# Zadatak 12 - Events / Događaji
+### Početno stanje aplikacije je završno stanje prethodnog zadatka
+	1. U komponentu korisnik potrebno je dodati input za unos teksta
+	2. Interakcijom s inputom za unos teksta treba mijenjati ime korisnika
+	3. Trenutno ime korisnika uvijek treba pisati unutar inputa
+	4. Funkcija promjena imena treba raditi samo na jednom korisniku
+
+# Zadatak 13 - Liste
+### NAPOMENA: Za početno stanje aplikacije ćemo napraviti novu AppListe.js datoteku te nju importati u index.js
+	1. Potrebno je prikazati sve korisnike u stanju (stateu) pomoću liste
+	2. Ukoliko se u polje korisnici doda još korisnika, oni se moraju automatski prikazati na ekranu, bez mijenjanja kôda
+	3. Promjena imena preko trake za unos teksta mora raditi na svim korisnicima
+	4. Radi optimizacije renderiranja kôda svaki element u listi mora imati postavljen unikatan ključ (key)
+
+# Zadatak 14 - Forme 1
+### NAPOMENA: Za početno stanje aplikacije ćemo napraviti novu AppForme1.js datoteku te nju importati u index.js
+	1. Potrebno je napraviti formu koja će imati traku za unos teksta i gumb za potvrdu unosa
+	2. Korisničkom interakcijom potrebno je spremati tekst u stanje (state) komponente
+	3. Pritiskom Pocetno stanjena tipku, potrebno je ispisati tekst na ekranu
+
+# Zadatak 15 - Forme 2
+### NAPOMENA: Za početno stanje aplikacije ćemo napraviti novu AppForme2.js datoteku te nju importati u index.js
+	1. Napraviti novu komponentu koja će sadržavati formu za unos novog korisnika
+	   (traka za unos teksta za ime, traka za unos teksta za godine i tipka za potvrditi unos)
+	2. Nakon pritiska na tipku forme novi korisnik se mora spremiti u stanje (state) i prikazati na ekranu
+	3. Nakon pritiska na tipku forme trake za unos teksta se moraju resetirati na početno stanje
+	4. Unos teksta za promjenu imena mora raditi i na novom korisniku
+	5. Tipka za promjenu godina mora raditi i na novom korisniku
